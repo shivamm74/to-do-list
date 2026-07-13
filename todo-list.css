@@ -7,7 +7,15 @@
     border-radius: 50px;
     font-size: 25px;
 }
+.div1 {
+    display: flex;
+    gap: 10px;
+}
 
+
+.phra1 {
+    display: flex;
+}
 
 .input {
     width: 300px;

@@ -8,14 +8,20 @@ function addItem() {
    let todolisthtml = '';
    
    ToDoList.push(buttonValue);
-   console.log(ToDoList)
+
    for (let i = 0 ; i < ToDoList.length ; i++){
       const todo = ToDoList[i];
-      const phra2 = `<p>${todo}<p>`
+      const phra2 = `<p>${todo}<p> <button>delete</button>`
       todolisthtml += phra2
 
    }
    console.log(todolisthtml)
+   document.querySelector('.phra1').innerHTML = todolisthtml;
 
    buttonElement.value = '';
 }
+
+
+
+
+
