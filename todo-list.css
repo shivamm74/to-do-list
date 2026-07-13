@@ -3,7 +3,7 @@
     width :200px;
     background-color: orange;
     color: white;
-    border: none;
+    border: orange;
     border-radius: 50px;
     font-size: 25px;
 }
@@ -31,6 +31,16 @@
     border-radius: 50px;
     font-size: 25px;
     text-align: center;
+    border: 2px solid black;
+}
+
+.input1 {
+    width: 300px;
+    height: 48px;
+    border-radius: 50px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
 }
 
 .button1:hover{
@@ -60,5 +70,5 @@
 
 .div5 {
     display: block;
-    background-color: beige;
+
 }
