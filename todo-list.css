@@ -1,6 +1,6 @@
 .button1 {
     height :50px;
-    width :200px;
+    width :80px;
     background-color: orange;
     color: white;
     border: orange;
@@ -17,6 +17,7 @@
 .input {
     grid-column: 1;
 }
+
 
 
 .phra1 {
@@ -80,7 +81,7 @@
 
 .button2 {
     height :50px;
-    width :200px;
+    width :80px;
     background-color: white;
     color:black;
     border: 2px solid black;
