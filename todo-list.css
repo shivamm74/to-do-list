@@ -10,6 +10,10 @@
     background-color: transparent;
 
 }
+
+body{
+    background-color: rgb(244, 249, 253);
+}
 .div1 {
     display: grid;
     grid-template-columns: 300px 300px 200px;
@@ -99,8 +103,33 @@
     background-size: cover;
 }
 
+.button2:hover{
+    border: 3px solid white;
+}
+
 .task-text{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: brown;
-    font-size: 35px;
+
+    font-size: 25px;
+}
+
+
+.date-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 25px;
+}
+
+
+.serial-number{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    font-size: 25px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    
 }
