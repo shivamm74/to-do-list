@@ -1,17 +1,21 @@
 .button1 {
     height :50px;
-    width :80px;
-    background-color: orange;
+    width :85px;
+    background-size: cover;
     color: white;
-    border: orange;
     border-radius: 50px;
     font-size: 25px;
+    background-image: url(add1.png);
+    border: none;
+    background-color: transparent;
+
 }
 .div1 {
     display: grid;
     grid-template-columns: 300px 300px 200px;
     gap: 10px;
     align-items: center;
+
 }
 
 .input {
@@ -41,6 +45,7 @@
 
 .todo-item .button2 {
     grid-column: 3;
+    justify-self: start;
 }
 
 .input1 {
@@ -49,6 +54,7 @@
 
 .div3 {
     grid-column: 3;
+    justify-self: start;
 }
 
 .input {
@@ -80,23 +86,17 @@
 }
 
 .button2 {
-    height :50px;
-    width :80px;
-    background-color: white;
-    color:black;
-    border: 2px solid black;
+    height: 50px;
+    width: 85px;
     border-radius: 50px;
-    font-size: 25px;
-}
-
-.button2:hover{
-    background-color: rgb(230, 16, 16);
-    color: aliceblue;
-}
-
-.div5 {
-    display: block;
-
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url(delete1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .task-text{
