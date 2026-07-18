@@ -1,4 +1,9 @@
-const ToDoList = [];
+
+
+
+let ToDoList = JSON.parse(localStorage.getItem('tasks')) || [];
+rendertodolist();
+
 
 function addItem() {
    
@@ -36,6 +41,7 @@ function addItem() {
    }
    console.log(todolisthtml)
    document.querySelector('.phra1').innerHTML = todolisthtml;
+   localStorage.setItem('tasks',JSON.stringify(ToDoList));
    
 }
 
