@@ -4,6 +4,10 @@
 let ToDoList = JSON.parse(localStorage.getItem('tasks')) || [];
 rendertodolist();
 
+document.querySelector('.button1').addEventListener('click',() => {
+   addItem()
+})
+
 
 function addItem() {
    
