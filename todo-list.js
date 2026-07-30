@@ -8,6 +8,11 @@ document.querySelector('.button1').addEventListener('click',() => {
    addItem()
 })
 
+document.body.addEventListener('keydown',(event) => {
+   if(event.key === "Enter") {
+      addItem()
+   }
+})
 
 function addItem() {
    
