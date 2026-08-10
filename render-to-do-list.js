@@ -1,4 +1,4 @@
-function rendertodolist () {
+export function renderTodoList (ToDoList) {
     let todolisthtml = '';
  
   ToDoList.forEach(function(todoobject,i){
@@ -16,7 +16,7 @@ function rendertodolist () {
  document.querySelectorAll('.button2').forEach((deletebutton,index) => {
     deletebutton.addEventListener('click', () => {
        ToDoList.splice(index,1);
-       rendertodolist();
+       renderTodoList(ToDoList);
     })
  })
  localStorage.setItem('tasks',JSON.stringify(ToDoList));

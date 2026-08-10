@@ -1,8 +1,8 @@
-
+import { renderTodoList } from './render-to-do-list.js';
 
 
 let ToDoList = JSON.parse(localStorage.getItem('tasks')) || [];
-rendertodolist();
+renderTodoList(ToDoList);
 
 document.querySelector('.button1').addEventListener('click',() => {
    addItem()
@@ -28,7 +28,7 @@ function addItem() {
  
    ToDoList.push({task : buttonValue, duedate : date});
 
-   rendertodolist();
+   renderTodoList(ToDoList);
 
    buttonElement.value = '' ;
    dateelement.value = '';
