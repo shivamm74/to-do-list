@@ -1,4 +1,5 @@
 import { renderTodoList } from './render-to-do-list.js';
+import './backend-practice.js'
 
 
 let ToDoList = JSON.parse(localStorage.getItem('tasks')) || [];
